@@ -1,5 +1,5 @@
-import { SlashCommandBuilder, EmbedBuilder } from "npm:discord.js";
-import axios from "npm:axios"; 
+import { SlashCommandBuilder, EmbedBuilder } from "discord.js";
+import axios from "axios"; 
 export default {
   data: new SlashCommandBuilder()
     .setName("randomfact")
